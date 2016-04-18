@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <!-- Site Properties -->
-  <title>REST Fest US - RESTful Web Services Unconference in Edinburgh, Scotland - July 14-16</title>
+  <title>REST Fest US - RESTful Web Services Unconference in Edinburgh, Scotland - September 15-17</title>
 
   <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css" />
@@ -35,6 +35,12 @@
     }
     #map {
       min-height: 300px;
+    }
+    div[typeof=Event] h1{
+      margin: 0;
+    }
+    div[typeof=Event] h3 {
+      margin-top: 0;
     }
   </style>
 
@@ -77,10 +83,22 @@
     </div>
 
     <div class="ui text container">
+      <h2>RESTful Web Services Unconference</h2>
       <h1 class="ui inverted header">
         REST Fest US 2016
       </h1>
-      <h2>RESTful Web Services Unconference</h2>
+      <div typeof="Event">
+        <meta property="name" content="REST Fest US" />
+        <h1>September 15-17<sup>th</sup></h1>
+        <h3 property="location" typeof="Place">
+          <span property="address" typeof="PostalAddress">
+            <span property="addressLocality">Greenville</span>,
+            <span property="addressRegion">SC</span>
+          </span>
+        </h3>
+        <meta property="startDate" content="2016-09-15" />
+        <meta property="endDate" content="2016-09-17" />
+      </div>
       <tito-button event="rest-fest/rest-fest-us-2016" class="ui huge primary button">Register <i class="right arrow icon"></i></tito-button>
     </div>
 
@@ -140,8 +158,8 @@
         <div class="three wide column">
           <h4 class="ui inverted header">More REST Fest!</h4>
           <div class="ui inverted link list">
-            <a href="http://2016.us.restfest.org/" class="item">
-              REST Fest US - Greenville, SC</a>
+            <a href="http://2016.uk.restfest.org/" class="item">
+              REST Fest UK - Edinburgh, Scotland</a>
             <a href="#" class="item">Video Project</a>
           </div>
         </div>
