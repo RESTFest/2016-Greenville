@@ -1,0 +1,16 @@
+{
+  "type": "Feature",
+  "properties": {
+    "marker-color": "#a5cb39",
+    "marker-size": "medium",
+    "marker-symbol": "",
+    "title": "REST Fest US"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -82.39861965179443,
+      34.85167115928937
+    ]
+  }
+}
