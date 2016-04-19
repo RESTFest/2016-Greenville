@@ -1,0 +1,42 @@
+/** REST Fest Overrides **/
+body.pushable > .pusher {
+  background: white url("https://pbs.twimg.com/profile_banners/171638344/1400849335/1500x500") no-repeat center -50px;
+}
+
+.ui.masthead.segment {
+  background: rgba(0,0,0,0.3);
+}
+.ui.masthead .ui.menu {
+  border: none;
+}
+.ui.stripe.segment {
+  background: white;
+}
+
+.ui.primary.button {
+  background-color: #A5CB39;
+}
+#tito {
+  padding: 0;
+}
+.tito-wrapper {
+  margin: 0px;
+  height: 100%;
+  border: none;
+}
+.tito-wrapper form {
+  height: 90%;
+}
+.tito-tickets-button {
+  border: none;
+  background: none;
+}
+#map {
+  min-height: 300px;
+}
+div[typeof=Event] h1{
+  margin: 0;
+}
+div[typeof=Event] h3 {
+  margin-top: 0;
+}
