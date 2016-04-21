@@ -9,7 +9,13 @@
     watch: {
       features: function() {
         /** app **/
-        var map = L.map('map').setView([34.8522,-82.3967], 16);
+        var map = L.map('map', {
+          center: [34.8522,-82.3967],
+          zoom: 16,
+          // interaction options
+          scrollWheelZoom: false
+        });
+
 
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={access_token}', {
           id: 'mapbox.light',
